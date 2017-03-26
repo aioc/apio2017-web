@@ -1,5 +1,5 @@
 """
-WSGI config for apio2016_org project.
+WSGI config for apio2017_org project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "apio2016-web.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "apio2017-web.settings")
 
 application = get_wsgi_application()
